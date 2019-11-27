@@ -6,6 +6,7 @@
         public string Description { get; set; }
         
         public int CategoryID { get; set; }
+
         // Replace CheeseType with CheeseCategory
         public CheeseCategory Category { get; set; }
         
