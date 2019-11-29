@@ -2,6 +2,7 @@
 {
     public class Cheese
     {
+        public int ID { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
         
@@ -10,6 +11,5 @@
         // Replace CheeseType with CheeseCategory
         public CheeseCategory Category { get; set; }
         
-        public int ID { get; set; }
     }
 }
