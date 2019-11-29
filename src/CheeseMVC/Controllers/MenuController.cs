@@ -73,7 +73,7 @@ namespace CheeseMVC.Controllers
 
             List<Cheese> cheeses = context.Cheeses.ToList();
 
-            return View(new AddMenuViewModel(menu, cheeses));
+            return View(new AddMenuItemViewModel(menu, cheeses));
         }
 
 

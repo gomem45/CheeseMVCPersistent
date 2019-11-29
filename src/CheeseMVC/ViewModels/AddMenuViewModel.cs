@@ -9,15 +9,6 @@ namespace CheeseMVC.ViewModels
 {
     public class AddMenuViewModel
     {
-        private Menu menu;
-        private List<Cheese> cheeses;
-
-        public AddMenuViewModel(Menu menu, List<Cheese> cheeses)
-        {
-            this.menu = menu;
-            this.cheeses = cheeses;
-        }
-
         [Required]
         [Display(Name = "Menu Name")]
         public string Name { get; set; }
